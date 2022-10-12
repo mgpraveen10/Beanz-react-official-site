@@ -1,0 +1,90 @@
+
+.starouter{
+    background-color:#faf7f5;
+    padding-bottom: 30px;
+
+}
+.starbeancon {
+    height:auto;
+    overflow:hidden;
+    /* background-color:#faf7f5; */
+    /* padding-bottom: 30px; */
+   }
+
+   
+   .conbeancon {
+   float: left;
+       width: 50%;
+   }
+   
+   .conbean {
+   float: right;
+       width: 30%;
+       margin-right: 10%;
+       padding: 5%;
+   }
+   
+   .starbeanimageleft {
+     margin-left: 2.75rem;
+       width: auto;
+       height: 220px;
+       max-width: 220px;
+       margin-top: 1.875rem;
+       width: 100%;
+       float: left;
+   }
+   
+   .starbeanimageright  {
+   margin-left: 2.75rem;
+       width: auto;
+       height: 220px;
+       max-width: 220px;
+       margin-top: 1.875rem;
+       width: 100%;
+       float: right;
+   }
+   .starbeantitle {
+   text-align:center;
+   }
+   .starbeandescleft
+   {font-family: "Montserrat";
+       margin: 0;
+       line-height: 1.33;
+       color: #2b2b2d;
+       font-stretch: normal;
+       letter-spacing: normal;
+       margin-bottom: 0;
+       font-size: .875rem;
+       font-weight: 500;
+   }
+   .starbeandescright
+   {font-family: "Montserrat";
+       margin: 0;
+       line-height: 1.33;
+       color: #2b2b2d;
+       font-stretch: normal;
+       letter-spacing: normal;
+       margin-bottom: 0;
+       font-size: .875rem;
+       font-weight: 500;
+   }
+   .linkbutton1 {
+	height: 40px;
+	padding: 0 1.875rem;
+	color: #063f3f;
+	background-color: #ccf2f2;
+	backdrop-filter: blur(4px);
+	border: 2px solid #ccf2f2;
+	max-width: 340px;
+	border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cent1 {
+    text-align: center;
+    
+    
+    
+    }
+   
