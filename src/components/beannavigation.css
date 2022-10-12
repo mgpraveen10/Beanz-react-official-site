@@ -1,0 +1,97 @@
+.beannav1 {
+
+/* border: 2px solid aqua; */
+margin-top: -1em;
+margin-bottom: 0px;
+height: 78px;
+background-color: #333;
+/* overflow: hidden; */
+
+}
+
+.beannav1 a{
+font-family: Bitter;
+float: left;
+color: #f2f2f2;
+text-align: center;
+/* padding: 14px 16px; */
+margin-top: 0px;
+margin-right: 20px;
+text-decoration: none;
+font-size: 20px;
+line-height: 15px;
+}
+
+.menuitem a{
+transition: 0.4s ease-in-out;
+margin-top: 10px;
+padding-top: 10px ;
+}
+
+.menuitem a:hover {
+font-size: 22px;
+font-weight: 600;
+border-bottom: 5px solid #39bbbb;
+
+}
+
+.beanzlogo{
+
+width:90px;
+height:30px;
+}
+
+.search-container {
+float: right;
+}
+
+.searchButton{
+background-image: url("icons8-search.svg");
+background-repeat: no-repeat;
+margin-right: 5em;
+/* margin-top: 0.7em; */
+border: 2px solid #333;
+border-radius: 14px;
+width: 150px;
+height: 30px;
+float: right;
+}
+
+.searchButton:hover{
+background-image: none;
+}
+
+/* .flag
+{
+    background-image: url("india.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 30px;
+height: 30px;
+float: right;
+margin-right: -12.5em;
+margin-top: 17px;
+
+} */
+.flagtry{
+    background-image: url("india.png"); 
+    /* margin: 10px; */
+position: absolute;
+
+left: 91%;
+transform: translate(50%, 50%);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+float: right;
+
+
+}
+.menuitem{
+    /* height: 200px; */
+    position: relative;
+    /* border: 3px solid green; */
+}

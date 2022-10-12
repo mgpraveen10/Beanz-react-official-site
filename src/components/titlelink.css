@@ -1,0 +1,18 @@
+.linkbutton2 {
+	height: 40px;
+	padding: 0 1.875rem;
+	color: #063f3f;
+	background-color: #ccf2f2;
+	backdrop-filter: blur(4px);
+	border: 2px solid #ccf2f2;
+	max-width: 340px;
+	border-radius: 4px;
+
+}
+
+.cent2 {
+text-align: center;
+
+
+
+}
