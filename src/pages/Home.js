@@ -7,6 +7,7 @@ import Card1 from "../components/card1";
 import FetchUtilityMethod from "../utility/Fetchutilitymethod";
 import Titlelink from "../components/titlelink";
 import Card from '../components/cardcomponent';
+import Titledescriptionbutton from "../components/titledescriptionbutton";
 
 
 import React, { useState, useEffect } from "react";
@@ -40,6 +41,7 @@ function Homez() {
       <Card1 value={data.cardcomponent} />,
       <Titlelink value={data.tittlelink}/>
       <Titd value={data.titd} />,
+      <Titledescriptionbutton value={data.titledescriptionbutton}/>
       
       
       
