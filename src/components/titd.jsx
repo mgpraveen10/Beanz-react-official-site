@@ -14,36 +14,36 @@ class Titd extends Component {
 
 
         return (
+      <div>
+    <div className="h">
+        <h1 className="i">{this.props.value.heading} </h1>
+            <img width="50%" src={this.props.value.linkURL}/>
 
-     <div>      
-<div className="h">
-<h1 className="i">{this.props.value.heading} </h1>
-<img  width="50%" src={this.props.value.linkURL}/>
 
-
-    <div className="candle" > 
-            {Object.keys(ob).map((oneItem) => (
-                 <div className="multi-des"> 
+            <div className="candle" > 
+                {Object.keys(ob).map((oneItem) => (
+                    <div className="multi-des"> 
                      <h1>{ob[oneItem].title}</h1>
                      <p>{ob[oneItem].testdescription}</p>
                     </div>
-            ))}
+                ))}
  
 
             </div>
             
       
           
-</div>
-<div className="cent2">
+    </div>
+
+ <div className="cent2">
        <a href={this.props.value.subheadinglink} target="blank">
 			<button class="linkbutton2"> {this.props.value.subheading} </button>
         </a>
-            </div>
-
-            </div> 
+  </div>
 
 
+
+  </div>
 
         );
     }
